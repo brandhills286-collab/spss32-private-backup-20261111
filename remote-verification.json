@@ -1,0 +1,171 @@
+{
+  "repository": "brandhills286-collab/spss32-private-backup-20261111",
+  "tag": "backup-20261111",
+  "started_at": "2026-11-11T20:14:31+08:00",
+  "status": "complete",
+  "all_assets_verified": true,
+  "assets": [
+    {
+      "name": "Join-Backup.ps1",
+      "size": 6808,
+      "sha256": "1965536730f358eb556e1a7be06eb5bf9390e1fbdbae17549f923a1a8e2c229b",
+      "asset_id": 735409818,
+      "remote_size": 6808,
+      "remote_digest": "sha256:1965536730f358eb556e1a7be06eb5bf9390e1fbdbae17549f923a1a8e2c229b",
+      "verified_remote_sha256": "1965536730f358eb556e1a7be06eb5bf9390e1fbdbae17549f923a1a8e2c229b",
+      "verification_method": "github_sha256_digest",
+      "url": "https://github.com/brandhills286-collab/spss32-private-backup-20261111/releases/download/backup-20261111/Join-Backup.ps1",
+      "verified": true,
+      "verified_at": "2026-11-11T20:14:49+08:00",
+      "action": "uploaded"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 502,
+      "sha256": "81239abd04e7a9db2c7527fd07e1c0f8f9cf1f7cdfde360c25f869fc6e694b2e",
+      "asset_id": 735410153,
+      "remote_size": 502,
+      "remote_digest": "sha256:81239abd04e7a9db2c7527fd07e1c0f8f9cf1f7cdfde360c25f869fc6e694b2e",
+      "verified_remote_sha256": "81239abd04e7a9db2c7527fd07e1c0f8f9cf1f7cdfde360c25f869fc6e694b2e",
+      "verification_method": "github_sha256_digest",
+      "url": "https://github.com/brandhills286-collab/spss32-private-backup-20261111/releases/download/backup-20261111/SHA256SUMS.txt",
+      "verified": true,
+      "verified_at": "2026-11-11T20:14:54+08:00",
+      "action": "uploaded"
+    },
+    {
+      "name": "SPSS32_Backup_20261111.zip.part001",
+      "size": 1073741824,
+      "sha256": "73b644326338826267f1f3fe3e94bb5cdc0710123606b145e68df7a5e377005b",
+      "asset_id": 735410356,
+      "remote_size": 1073741824,
+      "remote_digest": "sha256:73b644326338826267f1f3fe3e94bb5cdc0710123606b145e68df7a5e377005b",
+      "verified_remote_sha256": "73b644326338826267f1f3fe3e94bb5cdc0710123606b145e68df7a5e377005b",
+      "verification_method": "github_sha256_digest",
+      "url": "https://github.com/brandhills286-collab/spss32-private-backup-20261111/releases/download/backup-20261111/SPSS32_Backup_20261111.zip.part001",
+      "verified": true,
+      "verified_at": "2026-11-11T20:30:03+08:00",
+      "action": "uploaded"
+    },
+    {
+      "name": "SPSS32_Backup_20261111.zip.part002",
+      "size": 1073741824,
+      "sha256": "66bdbdd2ebdab17734fb1047fdc69c51c037e9c758591ab54b55e764a5fb5f48",
+      "asset_id": 735417403,
+      "remote_size": 1073741824,
+      "remote_digest": "sha256:66bdbdd2ebdab17734fb1047fdc69c51c037e9c758591ab54b55e764a5fb5f48",
+      "verified_remote_sha256": "66bdbdd2ebdab17734fb1047fdc69c51c037e9c758591ab54b55e764a5fb5f48",
+      "verification_method": "github_sha256_digest",
+      "url": "https://github.com/brandhills286-collab/spss32-private-backup-20261111/releases/download/backup-20261111/SPSS32_Backup_20261111.zip.part002",
+      "verified": true,
+      "verified_at": "2026-11-11T20:30:05+08:00",
+      "action": "uploaded_or_completed_previous_attempt"
+    },
+    {
+      "name": "SPSS32_Backup_20261111.zip.part003",
+      "size": 1073741824,
+      "sha256": "3dbd1dd3f2e0718eb9f7f5273c6ac71d81814c3f941d632b26a150ca59bc83cc",
+      "asset_id": 735415381,
+      "remote_size": 1073741824,
+      "remote_digest": "sha256:3dbd1dd3f2e0718eb9f7f5273c6ac71d81814c3f941d632b26a150ca59bc83cc",
+      "verified_remote_sha256": "3dbd1dd3f2e0718eb9f7f5273c6ac71d81814c3f941d632b26a150ca59bc83cc",
+      "verification_method": "github_sha256_digest",
+      "url": "https://github.com/brandhills286-collab/spss32-private-backup-20261111/releases/download/backup-20261111/SPSS32_Backup_20261111.zip.part003",
+      "verified": true,
+      "verified_at": "2026-11-11T20:30:07+08:00",
+      "action": "uploaded_or_completed_previous_attempt"
+    },
+    {
+      "name": "SPSS32_Backup_20261111.zip.part004",
+      "size": 499359341,
+      "sha256": "03ff630c7934211cbf6185c3437cd2cbeb04b0709e34bdd127806b59f2bf3c46",
+      "asset_id": 735415368,
+      "remote_size": 499359341,
+      "remote_digest": "sha256:03ff630c7934211cbf6185c3437cd2cbeb04b0709e34bdd127806b59f2bf3c46",
+      "verified_remote_sha256": "03ff630c7934211cbf6185c3437cd2cbeb04b0709e34bdd127806b59f2bf3c46",
+      "verification_method": "github_sha256_digest",
+      "url": "https://github.com/brandhills286-collab/spss32-private-backup-20261111/releases/download/backup-20261111/SPSS32_Backup_20261111.zip.part004",
+      "verified": true,
+      "verified_at": "2026-11-11T20:30:09+08:00",
+      "action": "uploaded_or_completed_previous_attempt"
+    },
+    {
+      "name": "release-parts.json",
+      "size": 914,
+      "sha256": "9d83ef6e44f9fda67db3d1543de667652dff8503502c9feb0ea163cbbe02c3bb",
+      "asset_id": 735455129,
+      "remote_size": 914,
+      "remote_digest": "sha256:9d83ef6e44f9fda67db3d1543de667652dff8503502c9feb0ea163cbbe02c3bb",
+      "verified_remote_sha256": "9d83ef6e44f9fda67db3d1543de667652dff8503502c9feb0ea163cbbe02c3bb",
+      "verification_method": "github_sha256_digest",
+      "url": "https://github.com/brandhills286-collab/spss32-private-backup-20261111/releases/download/backup-20261111/release-parts.json",
+      "verified": true,
+      "verified_at": "2026-11-11T20:30:14+08:00",
+      "action": "uploaded"
+    },
+    {
+      "name": "verification.json",
+      "size": 318,
+      "sha256": "abf4706b251e11e38faa4a4cf708139cfa61f7538e2a58b2d880e8207e7c9e24",
+      "asset_id": 735455373,
+      "remote_size": 318,
+      "remote_digest": "sha256:abf4706b251e11e38faa4a4cf708139cfa61f7538e2a58b2d880e8207e7c9e24",
+      "verified_remote_sha256": "abf4706b251e11e38faa4a4cf708139cfa61f7538e2a58b2d880e8207e7c9e24",
+      "verification_method": "github_sha256_digest",
+      "url": "https://github.com/brandhills286-collab/spss32-private-backup-20261111/releases/download/backup-20261111/verification.json",
+      "verified": true,
+      "verified_at": "2026-11-11T20:30:19+08:00",
+      "action": "uploaded"
+    }
+  ],
+  "expected_assets": [
+    {
+      "name": "Join-Backup.ps1",
+      "size": 6808,
+      "sha256": "1965536730f358eb556e1a7be06eb5bf9390e1fbdbae17549f923a1a8e2c229b"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 502,
+      "sha256": "81239abd04e7a9db2c7527fd07e1c0f8f9cf1f7cdfde360c25f869fc6e694b2e"
+    },
+    {
+      "name": "SPSS32_Backup_20261111.zip.part001",
+      "size": 1073741824,
+      "sha256": "73b644326338826267f1f3fe3e94bb5cdc0710123606b145e68df7a5e377005b"
+    },
+    {
+      "name": "SPSS32_Backup_20261111.zip.part002",
+      "size": 1073741824,
+      "sha256": "66bdbdd2ebdab17734fb1047fdc69c51c037e9c758591ab54b55e764a5fb5f48"
+    },
+    {
+      "name": "SPSS32_Backup_20261111.zip.part003",
+      "size": 1073741824,
+      "sha256": "3dbd1dd3f2e0718eb9f7f5273c6ac71d81814c3f941d632b26a150ca59bc83cc"
+    },
+    {
+      "name": "SPSS32_Backup_20261111.zip.part004",
+      "size": 499359341,
+      "sha256": "03ff630c7934211cbf6185c3437cd2cbeb04b0709e34bdd127806b59f2bf3c46"
+    },
+    {
+      "name": "release-parts.json",
+      "size": 914,
+      "sha256": "9d83ef6e44f9fda67db3d1543de667652dff8503502c9feb0ea163cbbe02c3bb"
+    },
+    {
+      "name": "verification.json",
+      "size": 318,
+      "sha256": "abf4706b251e11e38faa4a4cf708139cfa61f7538e2a58b2d880e8207e7c9e24"
+    }
+  ],
+  "updated_at": "2026-11-11T20:30:21+08:00",
+  "repository_url": "https://github.com/brandhills286-collab/spss32-private-backup-20261111",
+  "private_verified_at": "2026-11-11T20:30:21+08:00",
+  "release_id": 441649257,
+  "release_url": "https://github.com/brandhills286-collab/spss32-private-backup-20261111/releases/tag/backup-20261111",
+  "completed_at": "2026-11-11T20:30:21+08:00",
+  "total_bytes": 3720593355,
+  "extra_remote_assets": []
+}

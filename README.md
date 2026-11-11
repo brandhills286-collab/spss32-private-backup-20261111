@@ -38,3 +38,7 @@ SPSS 完整安装目录（含 Python/R/Java、许可文件及原有压缩文件�
 参见 [SHA256SUMS.txt](SHA256SUMS.txt)、[verification.json](verification.json)、[backup-summary.json](backup-summary.json)。
 
 GitHub 限制依据：[大文件文档](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)、[Release 附件文档](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)。
+
+## 云端验收
+
+全部 8 个 Release 附件的大小与 SHA-256 已逐一核对，仓库私密状态也已复核。见 [remote-verification.json](remote-verification.json)。4 个真实分卷已在本机实际合并并通过完整 ZIP 哈希核验，见 [local-roundtrip-verification.json](local-roundtrip-verification.json)。

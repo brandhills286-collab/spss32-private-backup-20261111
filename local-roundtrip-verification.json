@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "archive": "SPSS32_Backup_20261111.zip",
+  "bytes": 3720584813,
+  "sha256": "a56afebea0404d8ca29214cba8019dbcd8c462ae93a79d3869f087299287e95a",
+  "parts": 4,
+  "method": "Actual PowerShell streaming join and independent full-file SHA256"
+}
