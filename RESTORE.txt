@@ -1,0 +1,37 @@
+﻿IBM SPSS Statistics 32 本机文件与配置备份
+备份日期：2026-11-11（Asia/Shanghai）
+原安装位置：G:\SPSS
+版本：32.0.0.0
+
+内容
+- 35,428 个源文件，合计 4,905,802,156 字节。
+- 完整 G:\SPSS，包括自带 Python、R、Java、现有 ZIP、配置和许可文件。
+- 原始 SPSSStatistics.exe、Windows Installer 缓存 MSI 和 SPSS 专属 MST/图标目录。
+- 当前用户 AppData 中的 SPSS 设置、扩展、日志和自动恢复文件；共享 COM、快捷方式。
+- 已识别的 SPSS 临时缓存、安装日志、Sentinel 许可存储、22 个 SPSS MSI 引用的共享 VC++ DLL。
+- 2,003 个注册表键导出；另有 17 个按值筛选的防火墙/兼容性/SharedDLLs 设置。
+- 专用 SPSS Studio MCP 源码和虚拟环境、当前依赖清单、仅 SPSS 的 Codex 配置。
+
+文件组织
+files/G/SPSS 对应原 G:\SPSS。其他文件按 files/盘符/原路径保存。
+metadata/file-manifest.json 逐文件记录原路径、包内路径、字节数、SHA-256、修改时间和属性。
+metadata/registry-exports.json 将每个 .reg 文件映射到原注册表键。
+metadata/environment.json 记录 Windows 版本、SPSS 相关环境变量以及 MCP 基础 Python 路径。
+metadata/source-root-acls.json 记录源根路径的 ACL，ZIP 不会自动恢复权限或 NTFS 附加流。
+metadata/snapshot-summary.json 记录数量、范围及限制。
+
+恢复参考
+1. 先验证 ZIP 的 SHA-256，并解压到独立目录。若下载的是分卷，先用仓库 Join-Backup.ps1 合并。
+2. 优先运行归档中的 SPSS 32 原始安装程序，安装系统组件和程序，再有选择地恢复个人配置、扩展与文件。
+3. 路径保持 G:\SPSS 可减少绝对路径差异；路径改变时，检查相关配置、快捷方式和 SPSS_INSTALL_PATH。
+4. registry 下的内容用于查阅和选择性恢复。MSI组件、共享DLL、文件关联、防火墙、用户SID/兼容性状态具有机器上下文，不要整批导入到其他电脑。
+5. 许可文件和当前许可状态已保留，但未验证跨机器激活。需要时使用 SPSS 自带的授权流程。
+6. MCP venv 依赖共享 Python 3.12.14，基础解释器本体不属于此专用环境。目标电脑路径/解释器不一致时，使用当前依赖清单和源码重建 venv，调整 metadata/current-spss-mcp-config.json 中的路径。
+7. Windows共享VC++ DLL为取证参考副本。恢复依赖时优先使用安装程序/VC++运行库安装器，不要直接覆盖System32。
+
+覆盖边界
+这是已识别 SPSS 32 文件和配置的实时备份，不是 Windows 整机镜像。复制时对每个文件的大小和修改时间做稳定性检查，源文件不作修改；文件与注册表不是原子系统快照。
+不包含无关课程视频/作业资料、其他软件的配置、整机环境变量、其他 Codex 配置、无关账户凭据或其他用户账户的注册表。
+不包含 NTFS 附加数据流、逐文件 ACL、整机系统组件及无法确认归属的共享 Java/R 临时缓存。
+原临时安装来源目录已不存在；原安装程序、缓存MSI及SPSS专属MST均已收录。
+备份未经实际重装/恢复运行验证。ZIP完整性和逐文件SHA-256验证结果见压缩包旁 verification.json。

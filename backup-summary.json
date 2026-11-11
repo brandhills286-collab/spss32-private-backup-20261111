@@ -1,0 +1,25 @@
+{
+  "snapshot_time": "2026-11-11T20:10:02.604715+08:00",
+  "source_files": 35428,
+  "source_bytes": 4905802156,
+  "registry_exports": 2003,
+  "missing_source_roots": [],
+  "original_install_path": "G:\\SPSS",
+  "product_version": "32.0.0.0",
+  "snapshot_method": "Live file copy, with size/mtime stability checked for each file. Not a VSS system image.",
+  "limitations": [
+    "Registry and files are captured sequentially, not as an atomic whole-system snapshot.",
+    "Standard ZIP preserves file bytes and timestamps; NTFS ACL metadata is recorded separately. Alternate data streams are not included.",
+    "SPSS-referenced shared VC++ DLL files are copied for reference; Windows itself and unrelated shared runtime files are not copied.",
+    "The dedicated MCP venv references a shared Python 3.12.14 base runtime; rebuild venv if the base runtime or original paths differ.",
+    "License/configuration files are preserved; activation on a different machine is not verified.",
+    "Unrelated coursework, videos, account credentials and non-SPSS Codex configuration are outside this backup."
+  ],
+  "additional_selected_registry_values": 17,
+  "coverage_resolutions": [
+    "Downloaded Installations\\{D22AAA16-CA1D-40A5-B218-D793E1831051} belongs to another product and is excluded.",
+    "Generic shared Java/R runtime caches and IBM attach temp files cannot be exclusively attributed to SPSS and are not included.",
+    "The former installation source directory G:\\temp\\{50C00189-8A17-46A6-A05F-33786CE23220} no longer exists; the retained SPSS installer and cached MSI are included.",
+    "SafeNet Sentinel shared license state created at SPSS installation time is included; do not overwrite shared license state blindly during restoration."
+  ]
+}
